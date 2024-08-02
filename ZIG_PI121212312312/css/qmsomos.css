@@ -1,0 +1,137 @@
+*{
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+}
+.imglogo1 {
+    width: 50px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/fundoo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.250);
+    color: white;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+header a:hover{
+    color: #616d66be;
+    transform: scale(1.4); 
+    transition: 200ms;
+}
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+.fotos:hover{
+    color: #616d66be;
+    transform: scale(1.4); 
+    transition: 500ms;
+}
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 70%
+}
+.fotos{
+    display: flex;
+}
+a{  width: 80%;
+    text-align: center;
+}
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 00;
+    color: white;
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: white;
+    font-size: max(17px, 1.5vw);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1e;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
